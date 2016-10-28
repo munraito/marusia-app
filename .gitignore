@@ -11,3 +11,7 @@ Thumbs.db
 node_modules
 npm-debug.log
 .idea
+/src/components/Brands/
+/src/reducers/brandReducer.js
+/src/api/brandApi.js
+/src/actions/brandActions.js

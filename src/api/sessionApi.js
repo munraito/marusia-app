@@ -8,7 +8,7 @@ export default class SessionApi {
         });
 
         return fetch(request).then(response => {
-            return response.json();
+            if (response.ok) return response.json();
         }).catch(error => {
             return error;
         });

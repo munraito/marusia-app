@@ -21,7 +21,7 @@ export const routes = (
 );
 
 function requireAuth(nextState, replace) {
-    if (!sessionStorage.jwt) {
+    if (!sessionStorage.access_token) {
         replace({
             pathname: '/login',
             state: { nextPathname: nextState.location.pathname }

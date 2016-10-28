@@ -1,3 +1,3 @@
-# Marusia Admin Panel React+redux
+# Marusia Admin Panel React+Redux
 
 Auth is broken :(
