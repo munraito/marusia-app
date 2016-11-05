@@ -4,6 +4,13 @@ import * as brandActions from '../../actions/brandActions'
 import BrandList from './BrandList'
 
 class BrandsPage extends Component {
+/*    constructor() {
+        super(props);
+        this.props.dispatch(brandActions.loadBrands());
+    }*/
+componentWillMount() {
+    this.props.dispatch(brandActions.loadBrands());
+}
     render() {
         return (
             <div className='col-md-12'>
